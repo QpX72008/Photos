@@ -76,6 +76,12 @@ nav a:hover {
     transform: translate(-5px, -10px);
 }
 
+.products-card img {
+    width: 50%;
+    aspect-ratio: 1 /1;
+    object-fit: cover;
+}
+
 .btn {
     background-color: var(--boss);
     color: var(--text-light);
